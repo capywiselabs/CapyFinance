@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "CapyFinance",
+    "tagline": "Make money habits fun for kids"
+  },
+  "nav": {
+    "pet": "Pet",
+    "tasks": "Tasks",
+    "snap": "Log",
+    "shop": "Shop",
+    "me": "Me",
+    "dashboard": "Dashboard",
+    "approvals": "Approvals",
+    "reports": "Reports",
+    "family": "Family",
+    "classes": "Classes",
+    "curriculum": "Curriculum"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "kidJoin": "Kid sign in",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Name",
+    "familyCode": "Family code",
+    "pin": "PIN",
+    "asParent": "I'm a parent",
+    "asTeacher": "I'm a teacher",
+    "create": "Create account",
+    "join": "Join",
+    "verifyEmail": "Check your inbox to verify your email"
+  },
+  "expense": {
+    "title": "Log an expense",
+    "snap": "📷 Snap receipt",
+    "voice": "🎤 Voice it",
+    "manual": "✍️ Type it",
+    "amount": "Amount",
+    "currency": "Currency",
+    "merchant": "Merchant",
+    "category": "Category",
+    "occurredAt": "Date",
+    "notes": "Notes",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved! +{coins} coins",
+    "history": "History",
+    "review": "Quick check",
+    "reviewHint": "AI isn't always perfect, please confirm:",
+    "looksGood": "Looks good",
+    "edit": "Edit",
+    "deletePhoto": "We'll delete this photo in {days} days.",
+    "pendingSync": "{count} log(s) waiting to sync"
+  },
+  "category": {
+    "transport": "Transport",
+    "groceries": "Groceries",
+    "snacks": "Snacks",
+    "food": "Food",
+    "toys": "Toys",
+    "books": "Books",
+    "health": "Health",
+    "shopping": "Shopping",
+    "other": "Other"
+  },
+  "nudge": {
+    "budgetWarning": "🟠 You've used {percent}% of your {category} budget — slow down!",
+    "streak": "🔥 {days}-day logging streak. Nice!",
+    "coinEarned": "🪙 +{coins} coins",
+    "firstLogToday": "🌟 First log today!"
+  },
+  "pet": {
+    "name": "Capy",
+    "level": "Level",
+    "hp": "HP",
+    "happiness": "Happy",
+    "hunger": "Hunger",
+    "coins": "Coins",
+    "feed": "Feed",
+    "play": "Play",
+    "shop": "Shop"
+  },
+  "task": {
+    "real": "Real task",
+    "video": "Watch video",
+    "quiz": "Quiz",
+    "pendingApproval": "Waiting for parent",
+    "approved": "✅ Approved",
+    "rejected": "❌ Rejected",
+    "submit": "Mark done",
+    "uploadEvidence": "Add a photo",
+    "approve": "Approve",
+    "reject": "Reject",
+    "rewardCoins": "{coins} coins reward"
+  },
+  "report": {
+    "weekly": "Weekly money report",
+    "headline": "This week",
+    "strengths": "What went well",
+    "growthAreas": "Areas to grow",
+    "parentTip": "Tip for parents",
+    "conversationStarter": "Talk it through"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back"
+  }
+}

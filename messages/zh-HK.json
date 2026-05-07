@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "悠學豚 CapyFinance",
+    "tagline": "邊玩邊學理財,陪小朋友養成記帳習慣"
+  },
+  "nav": {
+    "pet": "水豚",
+    "tasks": "任務",
+    "snap": "記帳",
+    "shop": "商店",
+    "me": "我",
+    "dashboard": "總覽",
+    "approvals": "待批核",
+    "reports": "報告",
+    "family": "家庭",
+    "classes": "班級",
+    "curriculum": "課程"
+  },
+  "auth": {
+    "signIn": "登入",
+    "signUp": "註冊",
+    "signOut": "登出",
+    "kidJoin": "小朋友加入",
+    "email": "電郵",
+    "password": "密碼",
+    "displayName": "暱稱",
+    "familyCode": "家庭代碼",
+    "pin": "PIN 碼",
+    "asParent": "我係家長",
+    "asTeacher": "我係老師",
+    "create": "建立帳戶",
+    "join": "加入",
+    "verifyEmail": "請查收電郵驗證帳戶"
+  },
+  "expense": {
+    "title": "今日記帳",
+    "snap": "📷 影張收據",
+    "voice": "🎤 講畀我聽",
+    "manual": "✍️ 自己打",
+    "amount": "金額",
+    "currency": "貨幣",
+    "merchant": "商戶",
+    "category": "分類",
+    "occurredAt": "日期",
+    "notes": "備註",
+    "save": "記低",
+    "saving": "記緊...",
+    "saved": "已記低!+{coins} 金幣",
+    "history": "歷史",
+    "review": "確認下啦",
+    "reviewHint": "AI 唔係 100% 準,你 check 下:",
+    "looksGood": "係咁啦",
+    "edit": "改下",
+    "deletePhoto": "我哋會喺 {days} 日後刪除呢張相。",
+    "pendingSync": "{count} 條記錄等緊上載"
+  },
+  "category": {
+    "transport": "交通",
+    "groceries": "買餸",
+    "snacks": "零食",
+    "food": "食飯",
+    "toys": "玩具",
+    "books": "書本",
+    "health": "健康",
+    "shopping": "購物",
+    "other": "其他"
+  },
+  "nudge": {
+    "budgetWarning": "🟠 你今個月「{category}」用咗 {percent}%,慢慢嚟啦!",
+    "streak": "🔥 連續 {days} 日記帳,叻仔!",
+    "coinEarned": "🪙 +{coins} 金幣",
+    "firstLogToday": "🌟 今日第一筆!"
+  },
+  "pet": {
+    "name": "水豚",
+    "level": "等級",
+    "hp": "體力",
+    "happiness": "心情",
+    "hunger": "肚餓",
+    "coins": "金幣",
+    "feed": "餵嘢食",
+    "play": "陪玩",
+    "shop": "去商店"
+  },
+  "task": {
+    "real": "真實任務",
+    "video": "睇片任務",
+    "quiz": "問答任務",
+    "pendingApproval": "等家長批核",
+    "approved": "✅ 已批核",
+    "rejected": "❌ 唔批核",
+    "submit": "完成咗",
+    "uploadEvidence": "影張相證明",
+    "approve": "批核",
+    "reject": "唔批核",
+    "rewardCoins": "獎勵 {coins} 金幣"
+  },
+  "report": {
+    "weekly": "本週理財報告",
+    "headline": "本週重點",
+    "strengths": "做得好",
+    "growthAreas": "可以加強",
+    "parentTip": "畀家長嘅小貼士",
+    "conversationStarter": "傾下計"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "出錯啦",
+    "retry": "再試",
+    "cancel": "取消",
+    "confirm": "確定",
+    "close": "閂咗佢",
+    "next": "下一步",
+    "back": "返去"
+  }
+}

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 100% 95%;
+    --foreground: 28 50% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 28 50% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 28 50% 16%;
+
+    --primary: 32 88% 56%;
+    --primary-foreground: 28 60% 14%;
+
+    --secondary: 32 80% 88%;
+    --secondary-foreground: 28 50% 22%;
+
+    --muted: 32 30% 92%;
+    --muted-foreground: 28 20% 40%;
+
+    --accent: 18 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 32 40% 86%;
+    --input: 32 40% 86%;
+    --ring: 32 88% 56%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 28 30% 10%;
+    --foreground: 38 100% 95%;
+    --card: 28 30% 14%;
+    --card-foreground: 38 100% 95%;
+    --popover: 28 30% 14%;
+    --popover-foreground: 38 100% 95%;
+    --primary: 32 88% 56%;
+    --primary-foreground: 28 60% 14%;
+    --secondary: 28 30% 22%;
+    --secondary-foreground: 38 100% 95%;
+    --muted: 28 30% 22%;
+    --muted-foreground: 38 30% 70%;
+    --accent: 18 80% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 28 30% 22%;
+    --input: 28 30% 22%;
+    --ring: 32 88% 56%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  html,
+  body {
+    @apply bg-background text-foreground;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  .tap-target {
+    min-height: 56px;
+    min-width: 56px;
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
